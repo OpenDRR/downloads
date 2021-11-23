@@ -1,0 +1,8 @@
+datasets:
+- collection:
+    en: National Seismic Risk Model
+    fr: Modèle national de risque sismique
+  id: psra_bc_indicators
+  title:
+    en: Seismic Risk
+    fr: Risque sismique

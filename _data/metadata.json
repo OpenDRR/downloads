@@ -1,0 +1,793 @@
+{
+  "datasets": [
+    {
+      "id": "dsra_acm7p3_leechriverfullfault_indicators",
+      "collection": {
+        "en": "Earthquake Scenarios",
+        "fr": "Scénarios de tremblement de terre"
+      },
+      "title": {
+        "en": "Leach River Full Fault - Magnitude 7.3",
+        "fr": "Faille complète de la rivière Leach - Magnitude 7,3"
+      },
+      "description": {
+        "en": "Magnitude 7.3 scenario based on complete rupture of the CanSHM6 Hazard Model implementation of the Leech River Full Fault.",
+        "fr": "Scénario de magnitude 7,3 basé sur une rupture complète de la mise en œuvre du modèle de risque CanSHM6 de la faille complète de Leech River."
+      },
+      "resources": [
+        { 
+          "name": "GitHub repository",
+          "type": "Document",
+          "format": "HTML",
+          "language": "en",
+          "region": "ca",
+          "link": "https://github.com/OpenDRR/earthquake-scenarios/blob/master/FINISHED/ACM7p3_LeechRiverFullFault.md"
+        },
+        { 
+          "name": "Leach River Full Fault - Magnitude 7.3 (Points)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "ca",
+          "link": "acm7p3_leechriverfullfault_indicators_b.gpkg.zip"
+        },
+        { 
+          "name": "Leach River Full Fault - Magnitude 7.3 (Polygons)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "ca",
+          "link": "acm7p3_leechriverfullfault_indicators_s.gpkg.zip"
+        }
+      ]
+    },
+    {
+      "id": "nhsl_social_fabric_indicators",
+      "collection": {
+        "en": "Human Settlement and Natural Hazards in Canada",
+        "fr": "Zones de peuplement et dangers naturels au Canada"
+      },
+      "title": {
+        "en": "Social Fabric and Capacity Thresholds",
+        "fr": "Tissu social et seuils de capacité"
+      },
+      "description": {
+        "en": "The Social Vulnerability component of the National Human Settlement Layer (NHSL) includes information about broad spatial patterns of social vulnerability at the neighbourhood scale, and indicators about the capacities for a community to withstand and recover from disaster events based on intrinsic characteristics of housing, family structure, individual autonomy and financial agency. \nThe  social  vulnerability  index  and  capacity  threshold  indicators   help  to identify  underlying patterns of social vulnerability within a given community. The model includes six composite indicators that describe the estimated total social vulnerability, and vulnerability level that might arise due to housing conditions, family structure, individual autonomy and financial agency. The model provide a means of comparing relative levels of vulnerability from one region to another across Canada and help identify specific neighbourhoods within which capacities to withstand and recover from disaster events may be strained.",
+        "fr": "L’élément « Vulnérabilité sociale » de la couche ZPN comprend des renseignements sur les grandes tendances spatiales en matière de vulnérabilité sociale à l’échelle du quartier, ainsi que des indicateurs sur la capacité d’une collectivité à résister aux catastrophes, et à s’en rétablir, en fonction des caractéristiques intrinsèques du logement, de la structure familiale, de l’autonomie individuelle et des systèmes financiers. \nLes indicateurs de la vulnérabilité sociale et du seuil de capacité permettent de cerner les tendances sous-jacentes en matière de vulnérabilité sociale au sein d’une collectivité donnée. Le modèle comprend six indicateurs composites qui décrivent la vulnérabilité sociale totale estimée, ainsi que le niveau de vulnérabilité qui pourrait découler des conditions de logement, de la structure familiale, de l’autonomie individuelle et des systèmes financiers. Le modèle permet donc de comparer les niveaux relatifs de vulnérabilité d’une région à l’autre dans l’ensemble du Canada et de déterminer les quartiers dans lesquels la capacité de résister aux catastrophes, et de s’en rétablir, peut être restreinte."
+      },
+      "map_type": "esri_rest",
+      "map_layer": "4",
+      "map_url": {
+        "en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/social_fabric_en/MapServer",
+        "fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/social_fabric_fr/MapServer"
+      },
+      "resources": [
+        { 
+          "name": "Social Fabric and Capacity Thresholds (Canada)",
+          "type": "Web Service",
+          "format": "ESRI REST",
+          "language": "en",
+          "region": "ca",
+          "link": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/social_fabric_en/MapServer"
+        },
+        { 
+          "name": "Tissu social et seuils de capacité (Canada)",
+          "type": "Web Service",
+          "format": "ESRI REST",
+          "language": "fr",
+          "region": "ca",
+          "link": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/social_fabric_fr/MapServer"
+        },
+        { 
+          "name": "Social Fabric and Capacity Thresholds (Canada)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "ca",
+          "link": "nhsl_social_fabric_indicators_s.zip"
+        },
+        { 
+          "name": "Data dictionary",
+          "type": "Document",
+          "format": "EXCEL",
+          "language": "en",
+          "region": "ca",
+          "link": "nhsl_social_fabric_attributes_en.xlsx"
+        },
+        { 
+          "name": "Dictionnaire de données",
+          "type": "Document",
+          "format": "EXCEL",
+          "language": "fr",
+          "region": "ca",
+          "link": "nhsl_social_fabric_attributes_fr.xlsx"
+        },
+        { 
+          "name": "Social Fabric and Capacity Thresholds (AB)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "ab",
+          "link": "nhsl_social_fabric_indicators_s_ab.zip"
+        },
+        { 
+          "name": "Social Fabric and Capacity Thresholds (BC)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "bc",
+          "link": "nhsl_social_fabric_indicators_s_bc.zip"
+        },
+        { 
+          "name": "Social Fabric and Capacity Thresholds (MB)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "mb",
+          "link": "nhsl_social_fabric_indicators_s_mb.zip"
+        },
+        { 
+          "name": "Social Fabric and Capacity Thresholds (NB)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "nb",
+          "link": "nhsl_social_fabric_indicators_s_nb.zip"
+        },
+        { 
+          "name": "Social Fabric and Capacity Thresholds (NL)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "nl",
+          "link": "nhsl_social_fabric_indicators_s_nl.zip"
+        },
+        { 
+          "name": "Social Fabric and Capacity Thresholds (NS)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "ns",
+          "link": "nhsl_social_fabric_indicators_s_ns.zip"
+        },
+        { 
+          "name": "Social Fabric and Capacity Thresholds (NT)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "nt",
+          "link": "nhsl_social_fabric_indicators_s_nt.zip"
+        },
+        { 
+          "name": "Social Fabric and Capacity Thresholds (NU)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "nu",
+          "link": "nhsl_social_fabric_indicators_s_nu.zip"
+        },
+        { 
+          "name": "Social Fabric and Capacity Thresholds (ON)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "on",
+          "link": "nhsl_social_fabric_indicators_s_on.zip"
+        },
+        { 
+          "name": "Social Fabric and Capacity Thresholds (PE)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "pe",
+          "link": "nhsl_social_fabric_indicators_s_pe.zip"
+        },
+        { 
+          "name": "Social Fabric and Capacity Thresholds (QC)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "qc",
+          "link": "nhsl_social_fabric_indicators_s_qc.zip"
+        },
+        { 
+          "name": "Social Fabric and Capacity Thresholds (SK)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "sk",
+          "link": "nhsl_social_fabric_indicators_s_sk.zip"
+        },
+        { 
+          "name": "Social Fabric and Capacity Thresholds (YT)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "yt",
+          "link": "nhsl_social_fabric_indicators_s_yt.zip"
+        }
+      ]
+    },
+    {
+      "id": "nhsl_hazard_threat_indicators",
+      "collection": {
+        "en": "Human Settlement and Natural Hazards in Canada",
+        "fr": "Zones de peuplement et dangers naturels au Canada"
+      },
+      "title": {
+        "en": "Natural Hazard Threats",
+        "fr": "Dangers naturels"
+      },
+      "description": {
+        "en": "The Natural Hazard Threat component of the National Human Settlement Layer (NHSL) extends capabilities of the physical exposure model to address the question of who and what are susceptible to natural hazards of concern in Canada.  It utilizes available national-level information on earthquake, flood, debris flow, wildfire, and severe wind hazards to evaluate the extent to which people and critical assets are situated in harm’s way (hazard exposure); and the potential for socioeconomic disruptions in those areas where hazard intensities are likely to exceed minimum thresholds of damage potential (hazard susceptibility). \nEarthquake hazard threats are assessed using 1/2500-year ground shaking intensity levels developed by the Geological Survey of Canada to evaluate minimum thresholds of building damage. Wildfire hazard threats are assessed using mean head fire intensity (HFI) levels developed by the Canadian Forest Service to evaluate community assets at risk. Debris Flow threats are based on a multi-variate landslide susceptibility model developed by NASA as part of a global early warning system for weather-triggered events. Tsunami, riverine flood and severe wind hazard threats are based on 1/500-year inundation and cyclone models developed as part of the 2011 Global Assessment Report on Disaster Risk Reduction (GAR) to inform disaster management efforts at regional and national scales. \nSusceptibility to individual hazards is estimated based on the numbers of people and critical assets exposed at the Census Dissemination Area level. The results are aggregated into a multi-hazard threat index to help identify hotspots of concern across Canada.",
+        "fr": "L’élément « menaces liées aux dangers naturels » de la couche des zones de peuplement au niveau national (couche ZPN) étend la capacité du modèle d’exposition physique à approfondir la question de savoir qui et quoi pourrait être affecté par des dangers naturels préoccupants au Canada. Il utilise l’information disponible au niveau national sur les tremblements de terre, les inondations, les coulées de débris, les feux de forêt et les dangers liés aux vents violents pour évaluer dans quelle mesure les gens et les biens essentiels se trouvent en danger (exposition aux dangers) et pour évaluer le potentiel de perturbations socioéconomiques dans les zones où l’intensité des dangers est susceptible d’excéder les seuils minimaux de dommages potentiels (sensibilité aux dangers). \nLes menaces liées aux aléas sismiques sont évaluées au moyen des niveaux d’intensité des secousses telluriques survenant une fois tous les 2 500 ans mis au point par la Commission géologique du Canada pour évaluer les seuils minimaux des dommages aux bâtiments. Les menaces liées aux risques de feux de forêt sont évaluées au moyen des niveaux moyens d’intensité du front (IF) mis au point par le Service canadien des forêts pour évaluer les biens communautaires en danger. Les menaces liées aux coulées de débris sont basées sur un modèle de vulnérabilité aux glissements de terrain à variables multiples mis au point par la NASA dans le cadre d’un système mondial d’alerte rapide pour les événements déclenchés par les conditions météorologiques. Les menaces liées aux tsunamis, aux débordements de cours d’eau et aux vents violents sont basées sur les modèles de cyclone et inondations survenant 1 fois tous les 500 ans dans le cadre du Bilan mondial 2011 sur la réduction des risques de catastrophe des Nations Unies pour orienter les efforts de gestion des catastrophes à l’échelle régionale et nationale. La sensibilité à chacun des dangers est estimée en fonction du nombre de gens et de biens essentiels exposés au niveau des aires de diffusion du recensement. \nLes résultats sont regroupés dans un index des menaces liées à des dangers multiples pour aider à cerner les points chauds préoccupants dans l’ensemble du Canada."
+      },
+      "map_type": "esri_rest",
+      "map_layer": "6",
+      "map_url": {
+        "en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/nhsl_en/MapServer",
+        "fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/nhsl_fr/MapServer"
+      },
+      "resources": [
+        { 
+          "name": "Natural Hazard Threats polygon geometry (Canada)",
+          "type": "Web Service",
+          "format": "ESRI REST",
+          "language": "en",
+          "region": "ca",
+          "link": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/nhsl_en/MapServer/6"
+        },
+        { 
+          "name": "Géométrie des polygones du dangers naturels (Canada)",
+          "type": "Web Service",
+          "format": "ESRI REST",
+          "language": "fr",
+          "region": "ca",
+          "link": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/nhsl_fr/MapServer/6"
+        },
+        { 
+          "name": "Natural Hazard Threats point geometry (Canada)",
+          "type": "Web Service",
+          "format": "ESRI REST",
+          "language": "en",
+          "region": "ca",
+          "link": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/nhsl_en/MapServer/3"
+        },
+        { 
+          "name": "Géométrie des points du dangers naturel (Canada)",
+          "type": "Web Service",
+          "format": "ESRI REST",
+          "language": "fr",
+          "region": "ca",
+          "link": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/nhsl_fr/MapServer/3"
+        },
+        { 
+          "name": "Natural Hazard Threats polygon geometry (Canada)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "ca",
+          "link": "nhsl_hazard_threat_indicators_s.zip"
+        },
+        { 
+          "name": "Natural Hazard Threats point geometry (Canada)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "ca",
+          "link": "nhsl_hazard_threat_indicators_b.zip"
+        },
+        { 
+          "name": "Natural Hazard Threats polygon geometry (AB)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "ab",
+          "link": "nhsl_hazard_threat_indicators_s_ab.zip"
+        },
+        { 
+          "name": "Natural Hazard Threats point geometry (AB)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "ab",
+          "link": "nhsl_hazard_threat_indicators_b_ab.zip"
+        },
+        { 
+          "name": "Natural Hazard Threats polygon geometry (BC)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "bc",
+          "link": "nhsl_hazard_threat_indicators_s_bc.zip"
+        },
+        { 
+          "name": "Natural Hazard Threats point geometry (BC)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "bc",
+          "link": "nhsl_hazard_threat_indicators_b_bc.zip"
+        },
+        { 
+          "name": "Natural Hazard Threats polygon geometry (MB)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "mb",
+          "link": "nhsl_hazard_threat_indicators_s_mb.zip"
+        },
+        { 
+          "name": "Natural Hazard Threats point geometry (MB)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "mb",
+          "link": "nhsl_hazard_threat_indicators_b_mb.zip"
+        },
+        { 
+          "name": "Natural Hazard Threats polygon geometry (NB)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "nb",
+          "link": "nhsl_hazard_threat_indicators_s_nb.zip"
+        },
+        { 
+          "name": "Natural Hazard Threats point geometry (NB)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "nb",
+          "link": "nhsl_hazard_threat_indicators_b_nb.zip"
+        },
+        { 
+          "name": "Natural Hazard Threats polygon geometry (NL)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "nl",
+          "link": "nhsl_hazard_threat_indicators_s_nl.zip"
+        },
+        { 
+          "name": "Natural Hazard Threats point geometry (NL)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "nl",
+          "link": "nhsl_hazard_threat_indicators_b_nl.zip"
+        },
+        { 
+          "name": "Natural Hazard Threats polygon geometry (NS)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "ns",
+          "link": "nhsl_hazard_threat_indicators_s_ns.zip"
+        },
+        { 
+          "name": "Natural Hazard Threats point geometry (NS)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "ns",
+          "link": "nhsl_hazard_threat_indicators_b_ns.zip"
+        },
+        { 
+          "name": "Natural Hazard Threats polygon geometry (NT)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "nt",
+          "link": "nhsl_hazard_threat_indicators_s_nt.zip"
+        },
+        { 
+          "name": "Natural Hazard Threats point geometry (NT)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "nt",
+          "link": "nhsl_hazard_threat_indicators_b_nt.zip"
+        },
+        { 
+          "name": "Natural Hazard Threats polygon geometry (NU)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "nu",
+          "link": "nhsl_hazard_threat_indicators_s_nu.zip"
+        },
+        { 
+          "name": "Natural Hazard Threats point geometry (NU)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "nu",
+          "link": "nhsl_hazard_threat_indicators_b_nu.zip"
+        },
+        { 
+          "name": "Natural Hazard Threats polygon geometry (ON)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "on",
+          "link": "nhsl_hazard_threat_indicators_s_on.zip"
+        },
+        { 
+          "name": "Natural Hazard Threats point geometry (ON)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "on",
+          "link": "nhsl_hazard_threat_indicators_b_on.zip"
+        },
+        { 
+          "name": "Natural Hazard Threats polygon geometry (PE)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "pe",
+          "link": "nhsl_hazard_threat_indicators_s_pe.zip"
+        },
+        { 
+          "name": "Natural Hazard Threats point geometry (PE)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "pe",
+          "link": "nhsl_hazard_threat_indicators_b_pe.zip"
+        },
+        { 
+          "name": "Natural Hazard Threats polygon geometry (QC)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "qc",
+          "link": "nhsl_hazard_threat_indicators_s_qc.zip"
+        },
+        { 
+          "name": "Natural Hazard Threats point geometry (QC)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "qc",
+          "link": "nhsl_hazard_threat_indicators_b_qc.zip"
+        },
+        { 
+          "name": "Natural Hazard Threats polygon geometry (SK)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "sk",
+          "link": "nhsl_hazard_threat_indicators_s_sk.zip"
+        },
+        { 
+          "name": "Natural Hazard Threats point geometry (SK)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "sk",
+          "link": "nhsl_hazard_threat_indicators_b_sk.zip"
+        },
+        { 
+          "name": "Natural Hazard Threats polygon geometry (YT)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "yt",
+          "link": "nhsl_hazard_threat_indicators_s_yt.zip"
+        },
+        { 
+          "name": "Natural Hazard Threats point geometry (YT)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "yt",
+          "link": "nhsl_hazard_threat_indicators_b_yt.zip"
+        }
+      ]
+    },
+    {
+      "id": "nhsl_physical_exposure_indicators",
+      "collection": {
+        "en": "Human Settlement and Natural Hazards in Canada",
+        "fr": "Zones de peuplement et dangers naturels au Canada"
+      },
+      "title": {
+        "en": "Physical Exposure",
+        "fr": "Exposition physique"
+      },
+      "description": {
+        "en": "The Physical Exposure component of the National Human settlement Layer (NHSL) includes a delineation of settled areas and related land use across Canada, as well as information about buildings, persons, and capital value of buildings assets (structure and contents) within those areas. \nThis model represents an inventory of more than 9.1 million buildings in Canada; population dynamics at different times of day for 35.1 million people, and; the capital value of building assets totalling more than 8.3 trillion CAD$. \nBuildings are classified according to their construction type, occupancy, and age. These classes are derived from the standard North American  HAZUS  building  taxonomy and include  38 construction   classes representing different types of wood, concrete, masonry, steel and prefabricated structures; 33 occupancy classes representing a mix of residential, civic, commercial and industrial land uses; and 4 age classes representing the assumed level of building design. The distribution of resulting ‘building archetypes’ are assigned to settled areas based on associated land-use and census characteristics. \nBuilding populations at different times of day are estimated for standard daytime hours (9am-5pm); for morning and evening commute hours when people are in transit (7am-9am; 5pm-7pm), and; for nighttime hours when the majority of people are at home (7pm-7am). \nThe capital value of buildings assets is provided for structural and non-structural components of the building, as well as the potential building contents. Asset values are estimated based on industry replacement costs for representative regions across Canada.",
+        "fr": "L’élément « Exposition physique » de la couche ZPN délimite les régions habitées de l’ensemble du Canada et l’utilisation du sol dans ces régions, en plus d’inclure des renseignements sur les bâtiments, la population et la valeur en capital des biens immobiliers (structure et contenu). \nCe modèle comprend un inventaire de plus de 9,1 millions de bâtiments au Canada, la dynamique de la population à divers moments de la journée pour 35,1 millions de personnes et la valeur en capital de biens immobiliers totalisant plus de 8,3 billions de dollars canadiens. \nLes bâtiments sont classés en fonction du type de construction, de l’occupation et de l’âge. Ces classes sont basées sur la taxonomie normalisée HAZUS des bâtiments de l’Amérique du Nord. On compte 38 classes de construction représentant différents types de bois, de béton, de maçonnerie, d’acier et de structures préfabriquées; 33 classes d’occupation représentant une variété d’utilisations résidentielles, civiques, commerciales et industrielles; et 4 classes d’âge représentant le niveau présumé de conception du bâtiment. La distribution des « archétypes de bâtiments » obtenus est attribuée à des régions habitées en fonction de l’utilisation du sol et des caractéristiques du recensement. \nLe nombre d’occupants des bâtiments à différents moments de la journée est estimé pour les trois périodes suivantes : le jour (de 9 h à 17 h), pendant les déplacements domicile-travail du matin et du soir (de 7 h à 9 h et de 17 h à 19 h) et la nuit, lorsque la majorité des gens sont à la maison (de 19 h à 7 h). \nLa valeur en capital des biens immobiliers est fournie pour les éléments structurels et non structurels des bâtiments, ainsi que pour le contenu potentiel du bâtiment. La valeur des biens est estimée en fonction des coûts de remplacement de l’industrie pour des régions représentatives du Canada."
+      },
+      "map_type": "esri_rest",
+      "map_layer": "5",
+      "map_url": {
+        "en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/physical_exposure_en/MapServer",
+        "fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/physical_exposure_fr/MapServer"
+      },
+      "resources": [
+        { 
+          "name": "Physical Exposure polygon geometry (Canada)",
+          "type": "Web Service",
+          "format": "ESRI REST",
+          "language": "en",
+          "region": "ca",
+          "link": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/physical_exposure_en/MapServer"
+        },
+        { 
+          "name": "Géométrie des polygones du exposition physique (Canada)",
+          "type": "Web Service",
+          "format": "ESRI REST",
+          "language": "fr",
+          "region": "ca",
+          "link": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/physical_exposure_fr/MapServer"
+        },
+        { 
+          "name": "Physical Exposure polygon geometry (Canada)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "ca",
+          "link": "nhsl_physical_exposure_indicators_s.zip"
+        },
+        { 
+          "name": "Physical Exposure point geometry (Canada)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "ca",
+          "link": "nhsl_physical_exposure_indicators_b.zip"
+        },
+        { 
+          "name": "Data dictionary",
+          "type": "Document",
+          "format": "EXCEL",
+          "language": "en",
+          "region": "ca",
+          "link": "nhsl_physical_exposure_attributes_en.xlsx"
+        },
+        { 
+          "name": "Dictionnaire de données",
+          "type": "Document",
+          "format": "EXCEL",
+          "language": "fr",
+          "region": "ca",
+          "link": "nhsl_physical_exposure_attributes_fr.xlsx"
+        },
+        { 
+          "name": "Physical Exposure polygon geometry (AB)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "ab",
+          "link": "nhsl_physical_exposure_indicators_s_ab.zip"
+        },
+        { 
+          "name": "Physical Exposure point geometry (AB)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "ab",
+          "link": "nhsl_physical_exposure_indicators_b_ab.zip"
+        },
+        { 
+          "name": "Physical Exposure polygon geometry (BC)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "bc",
+          "link": "nhsl_physical_exposure_indicators_s_bc.zip"
+        },
+        { 
+          "name": "Physical Exposure point geometry (BC)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "bc",
+          "link": "nhsl_physical_exposure_indicators_b_bc.zip"
+        },
+        { 
+          "name": "Physical Exposure polygon geometry (MB)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "mb",
+          "link": "nhsl_physical_exposure_indicators_s_mb.zip"
+        },
+        { 
+          "name": "Physical Exposure point geometry (MB)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "mb",
+          "link": "nhsl_physical_exposure_indicators_b_mb.zip"
+        },
+        { 
+          "name": "Physical Exposure polygon geometry (NB)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "nb",
+          "link": "nhsl_physical_exposure_indicators_s_nb.zip"
+        },
+        { 
+          "name": "Physical Exposure point geometry (NB)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "nb",
+          "link": "nhsl_physical_exposure_indicators_b_nb.zip"
+        },
+        { 
+          "name": "Physical Exposure polygon geometry (NL)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "nl",
+          "link": "nhsl_physical_exposure_indicators_s_nl.zip"
+        },
+        { 
+          "name": "Physical Exposure point geometry (NL)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "nl",
+          "link": "nhsl_physical_exposure_indicators_b_nl.zip"
+        },
+        { 
+          "name": "Physical Exposure polygon geometry (NS)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "ns",
+          "link": "nhsl_physical_exposure_indicators_s_ns.zip"
+        },
+        { 
+          "name": "Physical Exposure point geometry (NS)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "ns",
+          "link": "nhsl_physical_exposure_indicators_b_ns.zip"
+        },
+        { 
+          "name": "Physical Exposure polygon geometry (NT)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "nt",
+          "link": "nhsl_physical_exposure_indicators_s_nt.zip"
+        },
+        { 
+          "name": "Physical Exposure point geometry (NT)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "nt",
+          "link": "nhsl_physical_exposure_indicators_b_nt.zip"
+        },
+        { 
+          "name": "Physical Exposure polygon geometry (NU)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "nu",
+          "link": "nhsl_physical_exposure_indicators_s_nu.zip"
+        },
+        { 
+          "name": "Physical Exposure point geometry (NU)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "nu",
+          "link": "nhsl_physical_exposure_indicators_b_nu.zip"
+        },
+        { 
+          "name": "Physical Exposure polygon geometry (ON)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "on",
+          "link": "nhsl_physical_exposure_indicators_s_on.zip"
+        },
+        { 
+          "name": "Physical Exposure point geometry (ON)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "on",
+          "link": "nhsl_physical_exposure_indicators_b_on.zip"
+        },
+        { 
+          "name": "Physical Exposure polygon geometry (PE)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "pe",
+          "link": "nhsl_physical_exposure_indicators_s_pe.zip"
+        },
+        { 
+          "name": "Physical Exposure point geometry (PE)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "pe",
+          "link": "nhsl_physical_exposure_indicators_b_pe.zip"
+        },
+        { 
+          "name": "Physical Exposure polygon geometry (QC)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "qc",
+          "link": "nhsl_physical_exposure_indicators_s_qc.zip"
+        },
+        { 
+          "name": "Physical Exposure point geometry (QC)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "qc",
+          "link": "nhsl_physical_exposure_indicators_b_qc.zip"
+        },
+        { 
+          "name": "Physical Exposure polygon geometry (SK)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "sk",
+          "link": "nhsl_physical_exposure_indicators_s_sk.zip"
+        },
+        { 
+          "name": "Physical Exposure point geometry (SK)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "sk",
+          "link": "nhsl_physical_exposure_indicators_b_sk.zip"
+        },
+        { 
+          "name": "Physical Exposure polygon geometry (YT)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "yt",
+          "link": "nhsl_physical_exposure_indicators_s_yt.zip"
+        },
+        { 
+          "name": "Physical Exposure point geometry (YT)",
+          "type": "Dataset",
+          "format": "GPKG",
+          "language": "en-fr",
+          "region": "yt",
+          "link": "nhsl_physical_exposure_indicators_b_yt.zip"
+        }
+      ]
+    },
+    {
+      "id": "psra_bc_indicators",
+      "collection": {
+        "en": "National Seismic Risk Model",
+        "fr": "Modèle national de risque sismique"
+      },
+      "title": {
+        "en": "Seismic Risk",
+        "fr": "Risque sismique"
+      }
+    }
+    ,
+    {
+      "id": "psra_bc_indicators",
+      "collection": {
+        "en": "Earthquake Scenarios",
+        "fr": "Scénarios de séismes"
+      },
+      "title": {
+        "en": "Seismic Risk",
+        "fr": "Risque sismique"
+      }
+    }
+  ]
+}
