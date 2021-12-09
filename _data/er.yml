@@ -1,0 +1,229 @@
+regions:
+  - 4810:
+    code: '4810'
+    title: 'Lethbridge--Medicine Hat'
+  - 4820:
+    code: '4820'
+    title: 'Camrose--Drumheller'
+  - 4830:
+    code: '4830'
+    title: 'Calgary'
+  - 4840:
+    code: '4840'
+    title: 'Banff--Jasper--Rocky Mountain House'
+  - 4850:
+    code: '4850'
+    title: 'Red Deer'
+  - 4860:
+    code: '4860'
+    title: 'Edmonton'
+  - 4870:
+    code: '4870'
+    title: 'Athabasca--Grande Prairie--Peace River'
+  - 4880:
+    code: '4880'
+    title: 'Wood Buffalo--Cold Lake'
+  - 5910:
+    code: '5910'
+    title: 'Vancouver Island and Coast'
+  - 5920:
+    code: '5920'
+    title: 'Lower Mainland Southwest'
+  - 5930:
+    code: '5930'
+    title: 'Thompson Okanagan'
+  - 5940:
+    code: '5940'
+    title: 'Kootenay'
+  - 5950:
+    code: '5950'
+    title: 'Cariboo'
+  - 5960:
+    code: '5960'
+    title: 'North Coast'
+  - 5970:
+    code: '5970'
+    title: 'Nechako'
+  - 5980:
+    code: '5980'
+    title: 'Northeast'
+  - 4610:
+    code: '4610'
+    title: 'Southeast / Sud-est'
+  - 4620:
+    code: '4620'
+    title: 'South Central / Centre sud'
+  - 4630:
+    code: '4630'
+    title: 'Southwest / Sud-ouest'
+  - 4640:
+    code: '4640'
+    title: 'North Central / Centre nord'
+  - 4650:
+    code: '4650'
+    title: 'Winnipeg'
+  - 4660:
+    code: '4660'
+    title: 'Interlake'
+  - 4670:
+    code: '4670'
+    title: 'Parklands'
+  - 4680:
+    code: '4680'
+    title: 'North / Nord'
+  - 1310:
+    code: '1310'
+    title: 'Campbellton--Miramichi'
+  - 1320:
+    code: '1320'
+    title: 'Moncton--Richibucto'
+  - 1330:
+    code: '1330'
+    title: 'Saint John--St. Stephen'
+  - 1340:
+    code: '1340'
+    title: 'Fredericton--Oromocto'
+  - 1350:
+    code: '1350'
+    title: 'Edmundston--Woodstock'
+  - 1010:
+    code: '1010'
+    title: 'Avalon Peninsula'
+  - 1020:
+    code: '1020'
+    title: 'South Coast--Burin Peninsula / Côte-sud--Burin Peninsula'
+  - 1030:
+    code: '1030'
+    title: 'West Coast--Northern Peninsula--Labrador / Côte-ouest--Northern Peninsula--Labrador'
+  - 1040:
+    code: '1040'
+    title: 'Notre Dame--Central Bonavista Bay'
+  - 6110:
+    code: '6110'
+    title: 'Northwest Territories / Territoires du Nord-ouest'
+  - 1210:
+    code: '1210'
+    title: 'Cape Breton'
+  - 1220:
+    code: '1220'
+    title: 'North Shore / Côte-nord'
+  - 1230:
+    code: '1230'
+    title: 'Annapolis Valley'
+  - 1240:
+    code: '1240'
+    title: 'Southern / Sud'
+  - 1250:
+    code: '1250'
+    title: 'Halifax'
+  - 6210:
+    code: '6210'
+    title: 'Nunavut'
+  - 3510:
+    code: '3510'
+    title: 'Ottawa'
+  - 3515:
+    code: '3515'
+    title: 'Kingston--Pembroke'
+  - 3520:
+    code: '3520'
+    title: 'Muskoka--Kawarthas'
+  - 3520:
+    code: '3530'
+    title: 'Toronto'
+  - 3540:
+    code: '3540'
+    title: 'Kitchener--Waterloo--Barrie'
+  - 3550:
+    code: '3550'
+    title: 'Hamilton--Niagara Peninsula'
+  - 3560:
+    code: '3560'
+    title: 'London'
+  - 3570:
+    code: '3570'
+    title: 'Windsor--Sarnia'
+  - 3580:
+    code: '3580'
+    title: 'Stratford--Bruce Peninsula'
+  - 3590:
+    code: '3590'
+    title: 'Northeast / Nord-est'
+  - 3595:
+    code: '3595'
+    title: 'Northwest / Nord-ouest'
+  - 1110:
+    code: '1110'
+    title: 'Prince Edward Island / Île-du-Prince-Édouard'
+  - 2410:
+    code: '2410'
+    title: 'Gaspésie--Îles-de-la-Madeleine'
+  - 2415:
+    code: '2415'
+    title: 'Bas-Saint-Laurent'
+  - 2420:
+    code: '2420'
+    title: 'Capitale-Nationale'
+  - 2425:
+    code: '2425'
+    title: 'Chaudière-Appalaches'
+  - 2430:
+    code: '2430'
+    title: 'Estrie'
+  - 2433:
+    code: '2433'
+    title: 'Centre-du-Québec'
+  - 2435:
+    code: '2435'
+    title: 'Montérégie'
+  - 2440:
+    code: '2440'
+    title: 'Montréal'
+  - 2445:
+    code: '2445'
+    title: 'Laval'
+  - 2450:
+    code: '2450'
+    title: 'Lanaudière'
+  - 2455:
+    code: '2455'
+    title: 'Laurentides'
+  - 2460:
+    code: '2460'
+    title: 'Outaouais'
+  - 2465:
+    code: '2465'
+    title: 'Abitibi-Témiscamingue'
+  - 2470:
+    code: '2470'
+    title: 'Mauricie'
+  - 2475:
+    code: '2475'
+    title: 'Saguenay--Lac-Saint-Jean'
+  - 2480:
+    code: '2480'
+    title: 'Côte-nord'
+  - 2490:
+    code: '2490'
+    title: 'Nord-du-Québec'
+  - 4710:
+    code: '4710'
+    title: 'Regina--Moose Mountain'
+  - 4720:
+    code: '4720'
+    title: 'Swift Current--Moose Jaw'
+  - 4730:
+    code: '4730'
+    title: 'Saskatoon--Biggar'
+  - 4740:
+    code: '4740'
+    title: 'Yorkton--Melville'
+  - 4750:
+    code: '4750'
+    title: 'Prince Albert'
+  - 4760:
+    code: '4760'
+    title: 'Northern / Nord'
+  - 6010:
+    code: '6010'
+    title: 'Yukon'
