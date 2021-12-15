@@ -22,7 +22,8 @@ jobs:
         run: |
           sudo gem install bundler:2.2.33
           sudo gem install jekyll
-          bundle install
+          bundle pack
+          bundle install --path vendor/cache
           jekyll build
 
       - name: Link Checker
