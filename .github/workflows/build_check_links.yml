@@ -20,8 +20,8 @@ jobs:
 
       - name: Install dependencies and build site
         run: |
-          sudo gem install bundler:2.2.33
-          sudo gem install jekyll
+          gem install bundler:2.2.33
+          gem install jekyll
           bundle install
           jekyll build
 
