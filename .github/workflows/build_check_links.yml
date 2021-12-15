@@ -15,12 +15,11 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@477b21f02be01bcb8030d50f37cfec92bfa615b6
         with:
-          ruby-version: 2.5
+          ruby-version: 2.7
           bundler-cache: true
 
       - name: Install dependencies and build site
         run: |
-          gem install bundler:2.2.33
           gem install jekyll
           gem install i18n:0.9.5
           bundle install
