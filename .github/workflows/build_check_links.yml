@@ -18,9 +18,10 @@ jobs:
           ruby-version: 2.6
           bundler-cache: true
 
-      - run: |
+      - name: Install dependencies and build site
+        run: |
+          sudo gem install bundler:2.2.33
           sudo gem install jekyll
-          gem install bundler:2.2.33
           bundle install
           jekyll build
 
