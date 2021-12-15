@@ -23,7 +23,7 @@ jobs:
           gem install jekyll:3.8
           gem install rexml:3.2.5
           gem install kramdown:2.3.1
-          bundle install
+          bundle exec install
           jekyll build
 
       - name: Link Checker
