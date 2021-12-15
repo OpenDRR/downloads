@@ -1,4 +1,4 @@
-name: Check for dead links on github pages
+name: Build pages and check links
 
 on:
   push:
@@ -20,10 +20,9 @@ jobs:
 
       - name: Install dependencies and build site
         run: |
-          sudo gem install bundler:2.2.33
+          apt-get install ruby
           sudo gem install jekyll
-          bundle pack
-          bundle install --path vendor/cache
+          bundle install
           jekyll build
 
       - name: Link Checker
