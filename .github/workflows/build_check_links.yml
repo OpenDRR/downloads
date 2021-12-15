@@ -20,7 +20,7 @@ jobs:
 
       - name: Install dependencies and build site
         run: |
-          apt-get install ruby
+          sudo apt-get install ruby
           sudo gem install jekyll
           bundle install
           jekyll build
