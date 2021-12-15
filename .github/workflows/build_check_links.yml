@@ -22,6 +22,7 @@ jobs:
         run: |
           sudo gem install jekyll
           bundle install
+          bundle exec rails s
           bundle exec rake rails:update:bin
           jekyll build
 
