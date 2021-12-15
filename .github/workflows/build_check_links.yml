@@ -20,6 +20,7 @@ jobs:
 
       - run: |
           sudo gem install jekyll
+          gem install bundler:2.2.33
           bundle install
           jekyll build
 
