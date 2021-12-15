@@ -20,9 +20,9 @@ jobs:
 
       - name: Install dependencies and build site
         run: |
-          sudo apt-get install ruby
           sudo gem install jekyll
           bundle install
+          bundle exec rake rails:update:bin
           jekyll build
 
       - name: Link Checker
