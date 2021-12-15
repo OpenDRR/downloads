@@ -1,6 +1,7 @@
 name: Check for dead links on github pages
 
 on:
+  push:
   pull_request:
     types: [ opened, synchronize, edited, reopened ]
 
@@ -18,6 +19,7 @@ jobs:
           bundler-cache: true
 
       - run: |
+          sudo gem install jekyll
           bundle install
           jekyll build
 
