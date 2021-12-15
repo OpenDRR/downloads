@@ -21,9 +21,9 @@ jobs:
       - name: Install dependencies and build site
         run: |
           gem install bundler:2.2.33
-          gem install jekyll
+          gem exec install jekyll
           bundle install
-          jekyll exec build
+          jekyll build
 
       - name: Link Checker
         uses: lycheeverse/lychee-action@v1.1.0
