@@ -22,7 +22,7 @@ jobs:
         run: |
           gem install bundler:2.2.33
           gem install jekyll
-          bundle install
+          bundle exec install
           jekyll build
 
       - name: Link Checker
