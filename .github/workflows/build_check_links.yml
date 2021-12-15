@@ -22,7 +22,6 @@ jobs:
         run: |
           gem install bundler:2.2.33
           gem install jekyll
-          gem uninstall i18n
           gem install i18n:0.9.5
           bundle install
           jekyll build
