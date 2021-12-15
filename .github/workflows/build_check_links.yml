@@ -21,6 +21,7 @@ jobs:
       - name: Install dependencies and build site
         run: |
           gem install jekyll:3.8
+          gem install rexml:3.2.5
           bundle install
           jekyll build
 
