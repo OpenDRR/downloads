@@ -21,8 +21,8 @@ jobs:
       - name: Install dependencies and build site
         run: |
           gem install bundler:2.2.33
-          gem exec install jekyll
-          bundle install
+          gem install jekyll
+          bundle exec install
           jekyll build
 
       - name: Link Checker
