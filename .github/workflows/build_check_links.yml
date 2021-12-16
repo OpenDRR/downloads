@@ -21,8 +21,8 @@ jobs:
       - name: Install dependencies and build site
         run: |
           bundle install
-          gem install jekyll
-          gem uninstall i18n --version 1.8.11 -I
+          gem install jekyll:4.0
+          gem update kramdown
           jekyll build
 
       - name: Link Checker
