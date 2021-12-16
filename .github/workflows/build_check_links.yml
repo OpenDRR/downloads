@@ -21,9 +21,6 @@ jobs:
       - name: Install dependencies and build site
         run: |
           gem install jekyll:3.8
-          gem install rexml:3.2.5
-          gem uninstall kramdown
-          gem install kramdown:2.3.1
           bundle install
           jekyll build
 
