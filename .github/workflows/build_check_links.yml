@@ -20,10 +20,8 @@ jobs:
 
       - name: Install dependencies and build site
         run: |
+          bundle clean --force
           bundle install
-          gem install jekyll:3.8
-          gem update kramdown
-          gem uninstall kramdown --version 1.17.0 -I
           jekyll build
 
       - name: Link Checker
