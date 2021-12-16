@@ -22,7 +22,7 @@ jobs:
         run: |
           gem install jekyll:3.9.0
           gem uninstall rouge
-          gem install rouge:3.26.0
+          gem install rouge:3.26.0 -I
           bundle clean --force
           bundle install
           jekyll build
