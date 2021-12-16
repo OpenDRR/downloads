@@ -22,6 +22,7 @@ jobs:
         run: |
           bundle install
           gem install jekyll
+          gem uninstall i18n:1.8.11
           jekyll build
 
       - name: Link Checker
