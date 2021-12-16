@@ -1,7 +1,6 @@
 name: Build pages and check links
 
 on:
-  push:
   pull_request:
     types: [ opened, synchronize, edited, reopened ]
 
