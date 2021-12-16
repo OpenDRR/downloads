@@ -22,7 +22,7 @@ jobs:
         run: |
           gem install rexml:3.2.5
           gem install jekyll:3.8
-          gem update kramdown
+          sudo gem update kramdown
           bundle install
           jekyll build
 
