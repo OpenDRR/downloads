@@ -1,4 +1,4 @@
-name: Check for dead links on github pages
+name: Build pages and check links
 
 on:
   pull_request:
@@ -14,17 +14,22 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@477b21f02be01bcb8030d50f37cfec92bfa615b6
         with:
-          ruby-version: 2.6
+          ruby-version: 3.0
           bundler-cache: true
 
-      - run: |
+      - name: Install dependencies and build site
+        run: |
+          gem install jekyll:3.9.0
+          gem uninstall rouge -I
+          gem install rouge:3.26.0
+          bundle clean --force
           bundle install
           jekyll build
 
       - name: Link Checker
         uses: lycheeverse/lychee-action@v1.1.0
         with:
-          args: ./docs/_site/* -b https://opendrr.github.io --exclude https://opendrr.github.io/assets/fontawesome/css/all.min.css
+          args: ./_site/* -b https://opendrr.github.io --exclude https://opendrr.github.io/assets/fontawesome/css/all.min.css
       
       - name: Add comment if broken links
         if: ${{ github.event_name == 'pull_request' && hashFiles('./lychee/out.md') != '' }}
