@@ -21,7 +21,7 @@ jobs:
       - name: Install dependencies and build site
         run: |
           bundle install
-          jekyll build
+          sudo jekyll build
 
       - name: Link Checker
         uses: lycheeverse/lychee-action@v1.1.0
