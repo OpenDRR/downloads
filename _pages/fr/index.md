@@ -1,7 +1,7 @@
 ---
 authorName: Natural Resources Canada
 authorUrl:
-dateModified: 2021-05-07
+dateModified: 2022-08-19
 noContentTitle: true
 pageclass: wb-prettify all-pre
 subject:
@@ -20,11 +20,6 @@ breadcrumbs:
 ---
 Bienvenue sur le site de téléchargement de données OpenDRR. Vous trouverez ici les dernières versions de tous les jeux de données disponibles.
 
-<section class="alert alert-danger">
-    <h3>Status</h3>
-    <p>Toutes les ressources disponibles sur ce site sont en version préliminaire, sauf indication contraire.</p>
-</section>
-
 ## Collections disponibles
 
 <div class="row mrgn-tp-xl mrgn-btm-xl">
@@ -32,9 +27,9 @@ Bienvenue sur le site de téléchargement de données OpenDRR. Vous trouverez ic
         <img src="../assets/img/nhsl.png" class="img-rounded img-responsive full-width" alt="Image du Canada">
     </div>
     <div class="col-md-8">
-        <h3>Zones de peuplement au Canada</h3><mark>Bientôt disponible</mark>
+        <h3>Zones de peuplement au Canada</h3>
         <p>La couche des zones de peuplement au niveau national (couche ZPN) est une collection d’ensembles de données thématiques qui décrivent les caractéristiques physiques, sociales et économiques des centres urbains et des collectivités rurales et éloignées du Canada.</p>
-        <a href="{{ site.url }}/national-human-settlement/fr" class="btn btn-primary" disabled>Explorer la collection</a>
+        <a href="{{ site.url }}/national-human-settlement/fr" class="btn btn-primary">Explorer la collection</a>
     </div>
 </div>
 <hr>

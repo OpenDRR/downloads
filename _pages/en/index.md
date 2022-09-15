@@ -1,7 +1,7 @@
 ---
 authorName: Natural Resources Canada
 authorUrl:
-dateModified: 2021-05-07
+dateModified: 2022-08-19
 noContentTitle: true
 pageclass: wb-prettify all-pre
 subject:
@@ -20,11 +20,6 @@ breadcrumbs:
 ---
 Welcome to the OpenDRR data download site. Here you will find the latest versions of all available datasets.
 
-<section class="alert alert-danger">
-    <h3>Status</h3>
-    <p>All resources available on this site are in DRAFT unless otherwise noted.</p>
-</section>
-
 ## Available Collections
 
 <div class="row mrgn-tp-xl mrgn-btm-xl">
@@ -32,9 +27,9 @@ Welcome to the OpenDRR data download site. Here you will find the latest version
         <img src="../assets/img/nhsl.png" class="img-rounded img-responsive full-width" alt="Image of Canada">
     </div>
     <div class="col-md-8">
-        <h3>Human Settlement in Canada</h3><mark>Coming soon</mark>
+        <h3>Human Settlement in Canada</h3>
         <p>The National Human Settlement Layer (NHSL) is a collection of thematic datasets that describe the physical, social and economic characteristics of urban centres and rural/remote communities across Canada.</p>
-        <a href="{{ site.url }}/national-human-settlement/en" class="btn btn-primary disabled" disabled>Explore</a>
+        <a href="{{ site.url }}/national-human-settlement/en" class="btn btn-primary">Explore</a>
     </div>
 </div>
 <hr>
