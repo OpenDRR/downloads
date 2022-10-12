@@ -1,6 +1,6 @@
 # downloads
 
-All products are released under the [Open Government Licence - Canada](https://open.canada.ca/en/open-government-licence-canada)
+All products are released under the [Open Government Licence - Canada](https://open.canada.ca/en/open-government-licence-canada). If you are looking for our end-user interface or any associated documentation, please visit [www.RiskProfiler.ca](www.riskprofiler.ca).
 
 Data download site for OpenDRR
 
@@ -53,7 +53,7 @@ Project Link: [https://opendrr.github.io](https://opendrr.github.io)
 
 # downloads
 
-Tous les produits sont publiés sous la [licence du gouvernement ouvert – Canada](https://ouvert.canada.ca/fr/licence-du-gouvernement-ouvert-canada)
+Tous les produits sont publiés sous la [licence du gouvernement ouvert – Canada](https://ouvert.canada.ca/fr/licence-du-gouvernement-ouvert-canada). Si vous recherchez notre interface utilisateur final ou toute documentation associée, veuillez consulter [www.RiskProfiler.ca](www.riskprofiler.ca).
 
 
 Site de téléchargement de données pour OpenDRR
