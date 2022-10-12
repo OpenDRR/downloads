@@ -18,7 +18,7 @@ breadcrumbs:
     link: "https://www.github.com/OpenDRR/"
   - title: "Téléchargements de OpenDRR"
 ---
-Bienvenue sur le site de téléchargement de données OpenDRR. Vous trouverez ici les dernières versions de tous les jeux de données disponibles.
+Bienvenue sur le site de téléchargement de données OpenDRR. Vous trouverez ici les dernières versions de tous les jeux de données disponibles. Si vous recherchez notre interface utilisateur final ou toute documentation associée, veuillez consulter [www.RiskProfiler.ca](www.riskprofiler.ca).
 
 ## Collections disponibles
 
@@ -38,9 +38,9 @@ Bienvenue sur le site de téléchargement de données OpenDRR. Vous trouverez ic
         <img src="../assets/img/psra.png" class="img-rounded img-responsive full-width" alt="Image du Canada">
     </div>
     <div class="col-md-8 col-md-pull-4">
-        <h3>Modèle national de risque sismique</h3><mark>Bientôt disponible</mark>
-        <p>Le modèle national de risque sismique pour le Canada présente un cadre structuré d'indicateurs qui profilent les dimensions physiques, sociales et économiques du risque sismique à l'échelle du quartier.</p>
-        <a href="psra.html" class="btn btn-primary disabled" disabled>Explorer la collection</a>
+        <h3>Modèle probabiliste national de risque sismique</h3>
+        <p>Le modèle probabiliste de risque sismique permet de comprendre le risque sismique global provenant de toutes les sources sismiques. Ce modèle introduit un cadre structuré d'indicateurs qui profilent les dimensions physiques, sociales et économiques du risque sismique à l'échelle du quartier sur des périodes de retour annuelles, de 50 ans et plus.</p>
+        <a href="psra.html" class="btn btn-primary">Explorer la collection</a>
     </div>
 </div>
 <hr>
@@ -50,7 +50,7 @@ Bienvenue sur le site de téléchargement de données OpenDRR. Vous trouverez ic
     </div>
     <div class="col-md-8">
         <h3>Scénarios de tremblement de terre</h3>
-        <p>Catalogue national de scénarios de tremblement de terre, qui présente les secousses, les dommages, les pertes et les conséquences probables de tremblements de terre hypothétiques qui pourraient frapper la population canadienne.</p>
+        <p>Le catalogue national de scénarios de tremblement de terre présente les secousses, les dommages, les pertes et les conséquences probables de tremblements de terre hypothétiques qui pourraient frapper la population canadienne.</p>
         <a href="{{ site.url }}/earthquake-scenarios/fr" class="btn btn-primary">Explorer la collection</a>
     </div>
 </div>
