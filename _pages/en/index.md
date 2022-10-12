@@ -18,7 +18,7 @@ breadcrumbs:
     link: "https://www.github.com/OpenDRR/"
   - title: "OpenDRR Downloads"
 ---
-Welcome to the OpenDRR data download site. Here you will find the latest versions of all available datasets.
+Welcome to the OpenDRR data download site. Here you will find the latest versions of all available datasets. If you are looking for our end-user interface or any associated documentation, please visit [www.RiskProfiler.ca](www.riskprofiler.ca).
 
 ## Available Collections
 
@@ -38,9 +38,9 @@ Welcome to the OpenDRR data download site. Here you will find the latest version
         <img src="../assets/img/psra.png" class="img-rounded img-responsive full-width" alt="Image of Canada">
     </div>
     <div class="col-md-8 col-md-pull-4">
-        <h3>National Seismic Risk Model</h3><mark>Coming soon</mark>
-        <p>The National Seismic Risk model for Canada introduces a structured framework of indicators that profile the physical, social and economic dimensions of earthquake risk at the neighborhood scale.</p>
-        <a href="psra.html" class="btn btn-primary" disabled>Explore</a>
+        <h3>National Probabilistic Seismic Risk Model</h3>
+        <p>The Probabilistic Seismic Risk Model enables understanding of overall earthquake risk from all earthquake sources. This model introduces a structured framework of indicators that profile the physical, social and economic dimensions of earthquake risk at the neighborhood scale over annual, 50-year, and longer return periods.</p>
+        <a href="psra.html" class="btn btn-primary">Explore</a>
     </div>
 </div>
 <hr>
@@ -50,7 +50,7 @@ Welcome to the OpenDRR data download site. Here you will find the latest version
     </div>
     <div class="col-md-8">
         <h3>Earthquake Scenarios</h3>
-        <p>National Earthquake Scenario Catalogue, which presents the probable shaking, damage, loss and consequences from hypothetical earthquakes that could impact Canadians.</p>
+        <p>The National Earthquake Scenario Catalogue presents the probable shaking, damage, loss and consequences from hypothetical earthquakes that could impact Canadians.</p>
       <a href="{{ site.url }}/earthquake-scenarios/en" class="btn btn-primary">Explore</a>
     </div>
 </div>
