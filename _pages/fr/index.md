@@ -18,7 +18,7 @@ breadcrumbs:
     link: "https://www.github.com/OpenDRR/"
   - title: "Téléchargements de OpenDRR"
 ---
-Bienvenue sur le site de téléchargement de données OpenDRR. Vous trouverez ici les dernières versions de tous les jeux de données disponibles. Si vous recherchez notre interface utilisateur final ou toute documentation associée, veuillez consulter [www.RiskProfiler.ca](www.riskprofiler.ca).
+Bienvenue sur le site de téléchargement de données OpenDRR. Vous trouverez ici les dernières versions de tous les jeux de données disponibles. Si vous recherchez notre interface utilisateur final ou toute documentation associée, veuillez consulter [www.RiskProfiler.ca](https://www.riskprofiler.ca).
 
 ## Collections disponibles
 

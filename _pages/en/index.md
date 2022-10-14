@@ -18,7 +18,7 @@ breadcrumbs:
     link: "https://www.github.com/OpenDRR/"
   - title: "OpenDRR Downloads"
 ---
-Welcome to the OpenDRR data download site. Here you will find the latest versions of all available datasets. If you are looking for our end-user interface or any associated documentation, please visit [www.RiskProfiler.ca](www.riskprofiler.ca).
+Welcome to the OpenDRR data download site. Here you will find the latest versions of all available datasets. If you are looking for our end-user interface or any associated documentation, please visit [www.RiskProfiler.ca](https://www.riskprofiler.ca).
 
 ## Available Collections
 
