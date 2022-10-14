@@ -1,7 +1,7 @@
 ---
 authorName: Natural Resources Canada
 authorUrl:
-dateModified: 2022-08-19
+dateModified: 2022-10-14
 noContentTitle: true
 pageclass: wb-prettify all-pre
 subject:
@@ -18,7 +18,7 @@ breadcrumbs:
     link: "https://www.github.com/OpenDRR/"
   - title: "Téléchargements de OpenDRR"
 ---
-Bienvenue sur le site de téléchargement de données OpenDRR. Vous trouverez ici les dernières versions de tous les jeux de données disponibles. Si vous recherchez notre interface utilisateur final ou toute documentation associée, veuillez consulter [www.RiskProfiler.ca](www.riskprofiler.ca).
+Bienvenue sur le site de téléchargement de données OpenDRR. Vous trouverez ici les dernières versions de tous les jeux de données disponibles. Si vous recherchez notre interface utilisateur final ou toute documentation associée, veuillez consulter [www.RiskProfiler.ca](https://www.riskprofiler.ca).
 
 ## Collections disponibles
 
@@ -40,7 +40,7 @@ Bienvenue sur le site de téléchargement de données OpenDRR. Vous trouverez ic
     <div class="col-md-8 col-md-pull-4">
         <h3>Modèle probabiliste national de risque sismique</h3>
         <p>Le modèle probabiliste de risque sismique permet de comprendre le risque sismique global provenant de toutes les sources sismiques. Ce modèle introduit un cadre structuré d'indicateurs qui profilent les dimensions physiques, sociales et économiques du risque sismique à l'échelle du quartier sur des périodes de retour annuelles, de 50 ans et plus.</p>
-        <a href="psra.html" class="btn btn-primary">Explorer la collection</a>
+        <a href="{{ site.url }}/seismic-risk-model/fr" class="btn btn-primary">Explorer la collection</a>
     </div>
 </div>
 <hr>
