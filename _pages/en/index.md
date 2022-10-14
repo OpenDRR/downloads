@@ -1,7 +1,7 @@
 ---
 authorName: Natural Resources Canada
 authorUrl:
-dateModified: 2022-08-19
+dateModified: 2022-10-14
 noContentTitle: true
 pageclass: wb-prettify all-pre
 subject:
@@ -40,7 +40,7 @@ Welcome to the OpenDRR data download site. Here you will find the latest version
     <div class="col-md-8 col-md-pull-4">
         <h3>National Probabilistic Seismic Risk Model</h3>
         <p>The Probabilistic Seismic Risk Model enables understanding of overall earthquake risk from all earthquake sources. This model introduces a structured framework of indicators that profile the physical, social and economic dimensions of earthquake risk at the neighborhood scale over annual, 50-year, and longer return periods.</p>
-        <a href="psra.html" class="btn btn-primary">Explore</a>
+        <a href="{{ site.url }}/seismic-risk-model/en" class="btn btn-primary">Explore</a>
     </div>
 </div>
 <hr>
